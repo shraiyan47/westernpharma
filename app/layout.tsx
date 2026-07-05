@@ -10,9 +10,57 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Western Pharma - Medicine Wholesaler & Commission Agent',
-  description: 'Trusted pharmaceutical distribution across Bangladesh since 1980. Western Pharma supplies medicine wholesalers, retailers, and healthcare businesses with reliable, ethical distribution.',
-  generator: 'v0.app',
+  title: {
+    default: 'Western Pharma - Medicine Wholesaler & Commission Agent',
+    template: '%s | Western Pharma',
+  },
+  description:
+    'Western Pharma is a trusted pharmaceutical distributor and commission agent in Bangladesh, serving wholesalers, retailers, and healthcare businesses with reliable medicine supply and ethical logistics.',
+  metadataBase: new URL('https://www.westernpharma.com'),
+  keywords: [
+    'medicine wholesaler Bangladesh',
+    'pharmaceutical distribution',
+    'pharma commission agent',
+    'medicine supply chain',
+    'healthcare wholesale',
+    'Western Pharma',
+  ],
+  authors: [{ name: 'Western Pharma', url: 'https://www.westernpharma.com' }],
+  generator: 'Next.js',
+  openGraph: {
+    title: 'Western Pharma - Medicine Wholesaler & Commission Agent',
+    description:
+      'Trusted pharmaceutical distribution in Bangladesh since 1980, serving wholesalers, retailers, and healthcare partners with reliable medicine supply and ethical logistics.',
+    type: 'website',
+    url: 'https://www.westernpharma.com',
+    siteName: 'Western Pharma',
+    locale: 'en_US',
+    images: [
+      {
+        url: '/icon.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Western Pharma logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Western Pharma - Medicine Wholesaler & Commission Agent',
+    description:
+      'Trusted pharmaceutical distribution in Bangladesh since 1980, serving wholesalers, retailers, and healthcare partners with reliable medicine supply and ethical logistics.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
   icons: {
     icon: [
       {
