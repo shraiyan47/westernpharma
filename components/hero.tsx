@@ -20,10 +20,10 @@ export default function Hero() {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#B88C44] leading-tight drop-shadow-[0_10px_20px_rgba(0,0,0,0.25)]">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffc109] leading-tight drop-shadow-[0_10px_20px_rgba(0,0,0,0.25)]">
               Trusted Pharmaceutical Distribution Across Bangladesh
             </h1>
-            <p className="text-lg md:text-xl text-[#35089de6] max-w-2xl mx-auto leading-relaxed drop-shadow-[0_6px_12px_rgba(0,0,0,0.18)]">
+            <p className="text-lg md:text-xl text-[#e8f9e5] max-w-2xl mx-auto leading-relaxed drop-shadow-[0_6px_12px_rgba(0,0,0,0.18)]">
               Western Pharma is a trusted medicine wholesaler and commission agent supplying pharmaceutical products to retailers, distributors and healthcare businesses with reliability, integrity and efficiency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
