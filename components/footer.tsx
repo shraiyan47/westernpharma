@@ -54,7 +54,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-white">Contact</h4>
             <div className="space-y-2 text-sm">
               <p className="text-white/70">
-                <span className="font-medium text-white">Phone:</span> <a href="tel:01711980987" className="hover:text-accent transition-colors">01711-980987</a>
+                <span className="font-medium text-white">Phone:</span> <a href="tel:+8801946160170" className="hover:text-accent transition-colors">+8801946160170</a>
               </p>
               <p className="text-white/70">
                 <span className="font-medium text-white">Email:</span>{' '}
